@@ -4589,6 +4589,7 @@ body {
 
 body {
   min-height: 100vh;
+  background-color: #00ff00;
 }
 
 code, kbd, pre, samp {
