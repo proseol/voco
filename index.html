@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="et">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test Ülesanne: VOCO Tartu Rakenduslik Kolledž</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="https://voco.ee/wp-content/uploads/VOCO-Logo.svg" alt="Tartu Rakenduslik Kolledž">
+            </header>
+            <div id="registration-form">
+                <h2>Registreerimine</h2>
+                <p>
+                    <label for="name">Nimi:</label>
+                    <input type="text" id="name" placeholder="Sisesta oma nimi">
+                </p>
+                <button onclick="registerUser()">Registreeri</button>
+                <p class="infobox" id="register-info"></p>
+            </div>
+
+            <div id="login-form">
+                <p class="infobox" id="s-register-info"></p>
+                <h2>Sisselogimine</h2>
+                <p>
+                    <label for="username">Kasutajanimi:</label>
+                    <input type="text" id="username" placeholder="Sisesta kasutajanimi">
+                </p>
+                <button onclick="loginUser()">Logi sisse</button>
+                <p class="infobox" id="login-info"></p>
+            </div>
+
+            <div id="success-box">
+                <p class="infobox" id="success-info"></p>
+            </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
